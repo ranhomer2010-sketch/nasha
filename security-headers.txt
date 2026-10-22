@@ -1,6 +1,6 @@
 # Apply as HTTP response headers at the Russian host.
 # CSP below is generated for this exact index.html.
-Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-2tUluNSHezyoH7r+6Emh2vf2KHnRtq20GcKKOtgIYvg=' 'sha256-kXm+QYByQn3je92oHnBww8dwf5Gzp3X5SqPGrp4jPFg=' 'sha256-+cLgUB6P7Hs+kundwA7Bw2Cv8vPvXVPYVW2qvfcR2dc='; style-src 'self' 'sha256-GBe31mZhbOECrL2zFoe0wz/6V+8hLYkqhdNa3iohJuY='; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-2tUluNSHezyoH7r+6Emh2vf2KHnRtq20GcKKOtgIYvg=' 'sha256-+w0YwYHeuvudpMBqKSIkoCiY16ib0HkGDSN6L4F001c=' 'sha256-Jq3d4fZOdazs6PYHO4dJHAVj4L6HmsMGtIHC/lAhkAI='; style-src 'self' 'sha256-Ood09/1nE1pJF+/WavUHvc2+ZyoEzRt33mY1U1WZVT0='; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
 Referrer-Policy: no-referrer
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY

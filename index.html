@@ -7,17 +7,18 @@
   <meta name="theme-color" content="#eaf3fc">
   <meta name="robots" content="noindex, nofollow">
   <meta name="referrer" content="no-referrer">
-  <meta name="description" content="АРС-42. Сайт всё включено за 10 000 ₽: аудит, анализ ниши и конкурентов, дизайн, админка и защита. Сайты для малого и среднего бизнеса.">
-  <meta property="og:title" content="АРС-42 — сайт всё включено за 10 000 ₽">
+  <meta name="description" content="Сайт всё включено за 10 000 ₽: аудит, анализ ниши и конкурентов, дизайн, админка и защита. Сайты для малого и среднего бизнеса.">
+  <meta property="og:title" content="Сайт всё включено за 10 000 ₽">
   <meta property="og:description" content="Аудит, анализ, дизайн, Яндекс Метрика и Вебмастер, админка и защита сайта.">
   <meta property="og:type" content="website">
-  <title>АРС-42 — сайт всё включено за 10 000 ₽</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-2tUluNSHezyoH7r+6Emh2vf2KHnRtq20GcKKOtgIYvg=' 'sha256-kXm+QYByQn3je92oHnBww8dwf5Gzp3X5SqPGrp4jPFg=' 'sha256-+cLgUB6P7Hs+kundwA7Bw2Cv8vPvXVPYVW2qvfcR2dc='; style-src 'self' 'sha256-GBe31mZhbOECrL2zFoe0wz/6V+8hLYkqhdNa3iohJuY='; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Сайт всё включено за 10 000 ₽</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-2tUluNSHezyoH7r+6Emh2vf2KHnRtq20GcKKOtgIYvg=' 'sha256-+w0YwYHeuvudpMBqKSIkoCiY16ib0HkGDSN6L4F001c=' 'sha256-Jq3d4fZOdazs6PYHO4dJHAVj4L6HmsMGtIHC/lAhkAI='; style-src 'self' 'sha256-Ood09/1nE1pJF+/WavUHvc2+ZyoEzRt33mY1U1WZVT0='; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <style>
-    :root { --ink:#13263c; --muted:#566a7e; --blue:#2676be; --line:rgba(35,70,106,.16); --pink:#edc9d9; --scroll:0; --scene:0; --pad:clamp(24px,5vw,88px); --ease:cubic-bezier(.22,.8,.25,1); }
+    @font-face { font-family:"Golos Text"; src:url("assets/fonts/golos-black.woff") format("woff"); font-weight:900; font-style:normal; font-display:swap; }
+    :root { --ink:#13263c; --muted:#566a7e; --blue:#2676be; --line:rgba(35,70,106,.16); --pink:#edc9d9; --scroll:0; --pad:clamp(24px,5vw,88px); --ease:cubic-bezier(.22,.8,.25,1); }
     *,*::before,*::after { box-sizing:border-box; }
     html { scroll-behavior:smooth; scroll-padding-top:100px; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; color:var(--ink); background:#edf4fa; -webkit-font-smoothing:antialiased; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; font-weight:400; color:var(--ink); background:#edf4fa; -webkit-font-smoothing:antialiased; }
     body.modal-open { overflow:hidden; }
     ::selection { background:#c7e6ff; color:var(--ink); }
     a { color:inherit; text-decoration:none; }
@@ -42,34 +43,24 @@
     .has-video .backdrop-video { opacity:1; }
     .has-video .architecture { opacity:0; }
     .has-video .hero-visual { visibility:hidden; }
-    .site-header { position:fixed; z-index:20; inset:0 0 auto; border-bottom:1px solid transparent; transition:background .3s,border-color .3s; }
-    .site-header.scrolled { background:rgba(244,248,252,.9); backdrop-filter:blur(20px); border-color:var(--line); }
-    .header-inner { height:88px; display:flex; align-items:center; gap:32px; }
-    .wordmark { display:inline-flex; align-items:center; gap:8px; font-weight:700; font-size:24px; letter-spacing:-1.3px; white-space:nowrap; }
-    .brand-mark { display:inline-flex; width:26px; height:26px; align-items:center; justify-content:center; border-radius:8px; background:var(--ink); color:#f2f8ff; font-weight:500; font-size:19px; letter-spacing:-3px; padding-right:3px; }
-    .wordmark .fortytwo { font-weight:400; color:#52728e; }
-    .main-nav { display:flex; align-items:center; gap:30px; margin-inline:auto; }
-    .main-nav a { color:var(--muted); font-size:13px; padding-block:10px; transition:color .2s; }
-    .main-nav a[aria-current="location"],.main-nav a:hover { color:var(--ink); }
-    .header-cta { font-size:13px; padding:12px 19px; border:1px solid #7894ad70; border-radius:100px; display:inline-flex; align-items:center; gap:22px; transition:background .2s; white-space:nowrap; flex-shrink:0; }
-    .header-cta:hover { background:#fff9; }
-    .header-cta .icon { width:14px; height:14px; }
-    .menu-toggle { display:none; background:none; width:42px; height:42px; border:1px solid var(--line); border-radius:50%; align-items:center; justify-content:center; flex-shrink:0; }
-    .reading-progress { position:absolute; height:2px; bottom:-1px; left:0; width:calc(var(--scroll) * 100%); background:#76add6; }
+    .contact-header { position:fixed; z-index:20; top:27px; right:var(--pad); }
+    .contact-button { min-width:133px; min-height:48px; padding:15px 19px; border-radius:10px; background:var(--ink); color:#fff; display:inline-flex; align-items:center; justify-content:space-between; gap:26px; font-size:12px; line-height:1.2; font-weight:700; letter-spacing:.075em; box-shadow:0 6px 22px #18365114; transition:background .2s,transform .2s; }
+    .contact-button:hover { background:#315574; transform:translateY(-2px); }
+    .contact-button .icon { width:15px; height:15px; }
     main { overflow:clip; }
     section { position:relative; scroll-margin-top:0; }
     .eyebrow { display:flex; align-items:center; gap:18px; font-size:12px; font-weight:500; letter-spacing:.015em; }
     .eyebrow .num { color:#687f93; font-variant-numeric:tabular-nums; }
     .eyebrow::after { content:""; width:52px; height:1px; background:#8fa9c080; }
     h1,h2,p { margin:0; }
-    h1,h2 { font-weight:500; letter-spacing:-.06em; }
+    h1,h2 { font-family:"Golos Text","Arial Black",Arial,sans-serif; font-weight:900; letter-spacing:-.03em; }
     .offer { padding-top:165px; padding-bottom:98px; }
     .hero-grid { display:grid; grid-template-columns:minmax(0,1.28fr) minmax(0,1fr); gap:16px; position:relative; align-items:center; }
     .hero-copy { position:relative; z-index:2; }
-    .hero-title { margin-top:33px; font-size:clamp(60px,7.1vw,112px); line-height:1.015; }
+    .hero-title { margin-top:28px; font-size:clamp(50px,6.4vw,102px); line-height:1.02; }
     .hero-title .title-line { display:block; }
-    .hero-price { display:block; color:#497eac; font-size:1.04em; margin-top:12px; white-space:nowrap; letter-spacing:-.065em; }
-    .hero-price .currency { font-weight:350; font-size:.7em; margin-left:.02em; }
+    .hero-price { display:block; color:#497eac; font-size:1.04em; margin-top:15px; white-space:nowrap; letter-spacing:-.035em; }
+    .hero-price .currency { font-weight:900; font-size:.7em; margin-left:.08em; }
     .hero-actions { display:flex; align-items:center; gap:24px; margin-top:35px; }
     .button { display:inline-flex; align-items:center; justify-content:center; gap:27px; min-height:52px; padding:14px 23px; border-radius:100px; background:var(--ink); color:#fff; font-size:14px; line-height:1.3; transition:background .2s,transform .2s; }
     .button:hover { background:#29445f; transform:translateY(-2px); }
@@ -99,15 +90,15 @@
     .receipt-line:last-child { width:60%; }
     .visual-foot { position:absolute; right:4%; bottom:-3px; width:52px; height:1px; background:#8ca9c1; }
     .offer-includes { margin-top:74px; padding-top:24px; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 3fr; gap:34px; }
-    .includes-label { font-size:14px; font-weight:500; padding-top:9px; }
+    .includes-label { font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:700; letter-spacing:0; padding-top:9px; }
     .services { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:1fr 1fr; column-gap:50px; }
     .services li { display:flex; align-items:baseline; gap:15px; min-width:0; border-bottom:1px solid var(--line); padding:12px 0; font-size:14px; line-height:1.5; }
     .service-index { font-size:10px; color:#73899c; font-variant-numeric:tabular-nums; min-width:15px; }
     .section-rule { border-top:1px solid var(--line); }
     .about { padding-block:90px 115px; }
     .section-title { font-size:clamp(48px,5vw,78px); line-height:1.04; margin-top:27px; }
-    .about-copy { max-width:1040px; margin-top:55px; font-size:clamp(25px,3.1vw,47px); letter-spacing:-.04em; line-height:1.32; font-weight:400; }
-    .about-copy strong { font-weight:400; color:#477ba8; }
+    .about-copy { max-width:1040px; margin-top:45px; font-size:clamp(25px,2.8vw,42px); letter-spacing:-.015em; line-height:1.4; font-weight:400; }
+    .about-copy strong { font-weight:700; color:#477ba8; }
     .about-purpose { margin-top:30px; font-size:clamp(19px,2vw,28px); line-height:1.5; max-width:690px; color:var(--muted); letter-spacing:-.02em; }
     .disciplines { display:flex; flex-wrap:wrap; gap:14px 36px; margin-top:65px; font-size:13px; color:#526c83; }
     .disciplines span { display:flex; align-items:center; gap:9px; }
@@ -167,10 +158,7 @@
     .footer-links { display:flex; flex-wrap:wrap; gap:12px 24px; }
     .footer-links button { padding:5px 0; background:transparent; font-size:11px; border-bottom:1px solid transparent; }
     .footer-links button:hover { border-color:#9eb5c7; }
-    .footer-brand { font-size:12px; letter-spacing:.02em; white-space:nowrap; }
-    .section-marker { position:fixed; z-index:5; right:21px; bottom:30px; display:flex; flex-direction:column; align-items:center; gap:12px; color:#65849d; font-size:10px; font-variant-numeric:tabular-nums; }
-    .section-marker .marker-line { width:1px; height:48px; background:#b6cdde; position:relative; }
-    .section-marker .marker-line::after { content:""; position:absolute; width:3px; height:12px; top:calc(var(--scene) * 12px); left:-1px; background:#557f9f; transition:top .4s var(--ease); }
+    .footer-year { font-size:12px; letter-spacing:.02em; white-space:nowrap; }
     dialog { border:1px solid #dbe7f1; color:var(--ink); background:#f8fbfe; border-radius:24px; padding:0; width:min(680px,calc(100% - 32px)); max-height:85dvh; box-shadow:0 30px 100px #102b4740; }
     dialog::backdrop { background:#1b355869; backdrop-filter:blur(7px); }
     .dialog-head { position:sticky; top:0; display:flex; justify-content:space-between; align-items:flex-start; gap:20px; background:#f8fbfef2; padding:26px 28px 20px; border-bottom:1px solid var(--line); }
@@ -187,29 +175,20 @@
     .reveal { opacity:1; }
     .js-motion .reveal { opacity:0; transform:translateY(25px); transition:opacity .75s var(--ease),transform .75s var(--ease); }
     .js-motion .reveal.visible { opacity:1; transform:none; }
-    @media(min-width:1600px) { .hero-title { font-size:112px; } }
-    @media(max-width:1150px) { .main-nav { gap:19px; } .hero-title { font-size:7.9vw; } .hero-visual { height:370px; } .browser-sculpture { height:255px; top:60px; } .mock-page { padding:18px; gap:16px; } .mock-image { min-height:155px; } .offer-includes { grid-template-columns:1fr 4fr; } .brief-layout { grid-template-columns:minmax(0,760px) 100px; gap:30px; } }
-    @media(max-width:900px) { :root { --pad:32px; } .header-inner { height:76px; gap:20px; } .main-nav { gap:16px; } .header-cta { gap:10px; } .hero-grid { grid-template-columns:1.3fr 1fr; } .hero-title { font-size:8.8vw; } .hero-visual { margin-right:-25px; width:calc(100% + 25px); height:340px; } .browser-sculpture { top:62px; height:225px; width:95%; right:-4%; } .mock-page { gap:13px; padding:14px; } .mock-image { min-height:133px; } .mock-line { height:10px; } .mock-caption { margin-top:5px; margin-bottom:15px; } .mock-small { margin-top:14px; } .mock-button { margin-top:16px; } .lead-sculpture { right:-12px; width:117px; height:89px; bottom:9px; } .receipt-sculpture { width:84px; height:114px; bottom:-5px; } .offer-includes { grid-template-columns:1fr; gap:15px; margin-top:65px; } .services { column-gap:30px; } .offer { padding-top:135px; } .about-copy { max-width:780px; } .brief-layout { display:block; } .brief-aside { display:none; } .brief-card { max-width:750px; } .section-marker { right:12px; } }
-    @media(max-width:680px) { :root { --pad:23px; } html { scroll-padding-top:90px; } .header-inner { height:72px; gap:11px; } .wordmark { font-size:21px; letter-spacing:-1px; } .brand-mark { width:23px; height:23px; border-radius:7px; font-size:17px; } .header-cta { margin-left:auto; padding:10px 13px; font-size:11px; gap:10px; } .menu-toggle { display:flex; width:36px; height:36px; } .main-nav { display:none; position:absolute; top:72px; left:0; right:0; margin:0; padding:14px var(--pad) 22px; background:#f0f6fc; border-bottom:1px solid var(--line); box-shadow:0 15px 30px #4464820a; } .main-nav.open { display:grid; grid-template-columns:1fr 1fr; gap:2px 20px; } .main-nav a { padding:13px 0; } .offer { padding-top:117px; padding-bottom:62px; } .hero-grid { display:flex; flex-direction:column; gap:0; align-items:stretch; } .eyebrow { font-size:11px; gap:13px; } .eyebrow::after { width:35px; } .hero-title { font-size:clamp(48px,12vw,79px); letter-spacing:-.06em; margin-top:28px; } .hero-price { margin-top:13px; font-size:1.13em; } .hero-actions { gap:22px; margin-top:27px; } .button { min-height:48px; font-size:12px; padding:13px 18px; gap:15px; } .text-link { font-size:11px; gap:7px; } .hero-visual { align-self:center; width:min(100%,390px); height:260px; margin:24px 0 -12px; transform:none; } .browser-sculpture { top:12px; width:84%; height:202px; right:8%; border-radius:15px; } .browser-bar { height:29px; padding-inline:13px; } .mock-page { padding:16px; grid-template-columns:1fr .8fr; gap:21px; } .mock-image { min-height:128px; } .mock-caption { margin-bottom:14px; } .mock-line { height:10px; margin-top:8px; } .mock-button { height:18px; margin-top:17px; } .lead-sculpture { right:0; bottom:4px; width:119px; height:86px; padding:14px; border-radius:12px; } .lead-sculpture::before { width:19px; height:19px; margin-bottom:9px; } .receipt-sculpture { bottom:-8px; width:80px; height:105px; right:38%; padding:12px; } .visual-foot { display:none; } .offer-includes { margin-top:34px; padding-top:20px; gap:12px; } .includes-label { font-size:12px; } .services { column-gap:20px; } .services li { font-size:11px; line-height:1.5; gap:9px; padding-block:11px; } .service-index { font-size:9px; min-width:12px; } .about,.why,.brief-section { padding-block:56px 63px; } .section-title { font-size:45px; margin-top:25px; letter-spacing:-.055em; } .about-copy { margin-top:33px; font-size:27px; line-height:1.35; } .about-purpose { font-size:19px; margin-top:23px; line-height:1.5; } .disciplines { gap:15px 25px; font-size:11px; margin-top:33px; } .reasons { margin-top:32px; } .reason { grid-template-columns:24px 1fr 15px; gap:11px; padding-block:23px; } .reason-num { font-size:10px; padding-top:6px; } .reason p { font-size:19px; line-height:1.45; } .reason .icon { width:15px; height:15px; margin-top:6px; } .brief-layout { margin-top:28px; } .brief-card { padding:23px 21px 21px; border-radius:23px; } .form-top { font-size:11px; } .form-track { margin-bottom:24px; } .step { min-height:237px; } .field-label { font-size:12px!important; } .text-input { font-size:18px; } textarea.text-input { font-size:16px; } .choice { font-size:11px; padding:8px 10px; } .meeting-grid { gap:6px; } .meeting-grid label { font-size:11px; padding:9px 8px; } .consent { font-size:11px; gap:9px; } .form-actions .button { font-size:12px; gap:10px; padding-inline:15px; } .form-back { font-size:12px; } .preview-note { font-size:10px; } .site-footer { padding-block:24px 30px; flex-direction:column; align-items:flex-start; gap:12px; } .footer-links { flex-direction:column; gap:5px; align-items:flex-start; } .footer-links button { text-align:left; } .section-marker { display:none; } .dialog-head { padding:22px 21px 17px; } .dialog-head h2 { font-size:24px; } .dialog-body { padding:20px 21px 25px; font-size:13px; } .has-video .hero-visual { visibility:hidden; } .backdrop-video { object-position:64% center; } }
-    @media(max-width:360px) { :root { --pad:18px; } .header-inner { gap:9px; } .wordmark { font-size:19px; } .brand-mark { width:21px; height:21px; } .header-cta { font-size:10px; padding:9px; gap:6px; } .menu-toggle { width:32px; height:32px; } .hero-title { font-size:12vw; } .hero-actions { gap:14px; } .meeting-grid { grid-template-columns:1fr; } .brief-card { padding-inline:17px; } .form-actions .button { font-size:11px; } }
+    @media(min-width:1600px) { .hero-title { font-size:102px; } }
+    @media(max-width:1150px) { .hero-visual { height:370px; } .browser-sculpture { height:255px; top:60px; } .mock-page { padding:18px; gap:16px; } .mock-image { min-height:155px; } .offer-includes { grid-template-columns:1fr 4fr; } .brief-layout { grid-template-columns:minmax(0,760px) 100px; gap:30px; } }
+    @media(max-width:900px) { :root { --pad:32px; } .hero-grid { grid-template-columns:1.3fr 1fr; } .hero-visual { margin-right:-25px; width:calc(100% + 25px); height:340px; } .browser-sculpture { top:62px; height:225px; width:95%; right:-4%; } .mock-page { gap:13px; padding:14px; } .mock-image { min-height:133px; } .mock-line { height:10px; } .mock-caption { margin-top:5px; margin-bottom:15px; } .mock-small { margin-top:14px; } .mock-button { margin-top:16px; } .lead-sculpture { right:-12px; width:117px; height:89px; bottom:9px; } .receipt-sculpture { width:84px; height:114px; bottom:-5px; } .offer-includes { grid-template-columns:1fr; gap:15px; margin-top:65px; } .services { column-gap:30px; } .offer { padding-top:135px; } .about-copy { max-width:780px; } .brief-layout { display:block; } .brief-aside { display:none; } .brief-card { max-width:750px; } }
+    @media(max-width:680px) { .contact-header { top:19px; } .contact-button { min-width:113px; min-height:44px; padding:13px 15px; font-size:11px; gap:19px; } :root { --pad:23px; } html { scroll-padding-top:90px; } .offer { padding-top:117px; padding-bottom:62px; } .hero-grid { display:flex; flex-direction:column; gap:0; align-items:stretch; } .eyebrow { font-size:11px; gap:13px; } .eyebrow::after { width:35px; } .hero-title { font-size:clamp(42px,10.6vw,70px); letter-spacing:-.03em; margin-top:28px; } .hero-price { margin-top:13px; font-size:1.13em; } .hero-actions { gap:22px; margin-top:27px; } .button { min-height:48px; font-size:12px; padding:13px 18px; gap:15px; } .text-link { font-size:11px; gap:7px; } .hero-visual { align-self:center; width:min(100%,390px); height:260px; margin:24px 0 -12px; transform:none; } .browser-sculpture { top:12px; width:84%; height:202px; right:8%; border-radius:15px; } .browser-bar { height:29px; padding-inline:13px; } .mock-page { padding:16px; grid-template-columns:1fr .8fr; gap:21px; } .mock-image { min-height:128px; } .mock-caption { margin-bottom:14px; } .mock-line { height:10px; margin-top:8px; } .mock-button { height:18px; margin-top:17px; } .lead-sculpture { right:0; bottom:4px; width:119px; height:86px; padding:14px; border-radius:12px; } .lead-sculpture::before { width:19px; height:19px; margin-bottom:9px; } .receipt-sculpture { bottom:-8px; width:80px; height:105px; right:38%; padding:12px; } .visual-foot { display:none; } .offer-includes { margin-top:34px; padding-top:20px; gap:12px; } .includes-label { font-size:12px; } .services { column-gap:20px; } .services li { font-size:11px; line-height:1.5; gap:9px; padding-block:11px; } .service-index { font-size:9px; min-width:12px; } .about,.why,.brief-section { padding-block:56px 63px; } .section-title { font-size:45px; margin-top:25px; letter-spacing:-.055em; } .about-copy { margin-top:33px; font-size:27px; line-height:1.35; } .about-purpose { font-size:19px; margin-top:23px; line-height:1.5; } .disciplines { gap:15px 25px; font-size:11px; margin-top:33px; } .reasons { margin-top:32px; } .reason { grid-template-columns:24px 1fr 15px; gap:11px; padding-block:23px; } .reason-num { font-size:10px; padding-top:6px; } .reason p { font-size:19px; line-height:1.45; } .reason .icon { width:15px; height:15px; margin-top:6px; } .brief-layout { margin-top:28px; } .brief-card { padding:23px 21px 21px; border-radius:23px; } .form-top { font-size:11px; } .form-track { margin-bottom:24px; } .step { min-height:237px; } .field-label { font-size:12px!important; } .text-input { font-size:18px; } textarea.text-input { font-size:16px; } .choice { font-size:11px; padding:8px 10px; } .meeting-grid { gap:6px; } .meeting-grid label { font-size:11px; padding:9px 8px; } .consent { font-size:11px; gap:9px; } .form-actions .button { font-size:12px; gap:10px; padding-inline:15px; } .form-back { font-size:12px; } .preview-note { font-size:10px; } .site-footer { padding-block:24px 30px; flex-direction:column; align-items:flex-start; gap:12px; } .footer-links { flex-direction:column; gap:5px; align-items:flex-start; } .footer-links button { text-align:left; } .dialog-head { padding:22px 21px 17px; } .dialog-head h2 { font-size:24px; } .dialog-body { padding:20px 21px 25px; font-size:13px; } .has-video .hero-visual { visibility:hidden; } .backdrop-video { object-position:64% center; } }
+    @media(max-width:360px) { :root { --pad:18px; } .hero-title { font-size:11.4vw; } .hero-actions { gap:14px; } .meeting-grid { grid-template-columns:1fr; } .brief-card { padding-inline:17px; } .form-actions .button { font-size:11px; } }
     @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation:none!important; transition:none!important; } .js-motion .reveal { opacity:1; transform:none; } .architecture::before { transform:rotate(-22deg); } .architecture::after { transform:rotate(25deg); } .backdrop-video { display:none; } .has-video .architecture { opacity:1; } .has-video .hero-visual { visibility:visible; } }
-    @media print { .site-header,.backdrop,.hero-visual,.brief-aside,.section-marker,.hero-actions,dialog { display:none!important; } body { color:#111; background:white; } .shell { padding:0; } section { padding-block:25px!important; break-inside:avoid; } .hero-title { font-size:48px; } .section-title { font-size:34px; } .about-copy { font-size:24px; } .reveal { opacity:1!important; transform:none!important; } }
+    @media print { .contact-header,.backdrop,.hero-visual,.brief-aside,.hero-actions,dialog { display:none!important; } body { color:#111; background:white; } .shell { padding:0; } section { padding-block:25px!important; break-inside:avoid; } .hero-title { font-size:48px; } .section-title { font-size:34px; } .about-copy { font-size:24px; } .reveal { opacity:1!important; transform:none!important; } }
   </style>
 </head>
 <body>
   <a href="#content" class="skip-link">К содержанию</a>
   <svg class="sr-only" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol><symbol id="north-east" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol><symbol id="back" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol><symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol></svg>
   <div class="backdrop" aria-hidden="true"><div class="architecture"></div><video class="backdrop-video" id="scroll-video" muted playsinline preload="none" tabindex="-1" disablepictureinpicture></video></div>
-  <header class="site-header" id="header">
-    <div class="shell header-inner">
-      <a class="wordmark" href="#offer" aria-label="АРС-42, в начало"><span class="brand-mark" aria-hidden="true">//</span>АРС<span class="fortytwo">42</span></a>
-      <nav class="main-nav" id="main-nav" aria-label="Разделы сайта">
-        <a href="#offer" aria-current="location">Что предлагаем</a><a href="#about">Кто мы</a><a href="#why">Почему мы</a><a href="#brief">Кто вы</a>
-      </nav>
-      <a class="header-cta" href="#brief">Обсудить сайт<svg class="icon" aria-hidden="true"><use href="#north-east"/></svg></a>
-      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="main-nav" aria-expanded="false"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14M5 16h14"/></svg></button>
-    </div><div class="reading-progress" aria-hidden="true"></div>
-  </header>
+  <header class="contact-header"><a class="contact-button" href="#brief">СВЯЗЬ<svg class="icon" aria-hidden="true"><use href="#north-east"/></svg></a></header>
   <main id="content" class="shell">
     <section id="offer" class="offer" aria-labelledby="offer-title" data-chapter="0">
       <div class="hero-grid">
@@ -265,9 +244,8 @@
         </form>
       </div><div class="brief-aside" aria-hidden="true"><div class="path-line"></div><div class="path-ring"></div></div></div>
     </section>
-    <footer class="site-footer"><span class="footer-brand">АРС-42 © 2026</span><div class="footer-links"><button type="button" data-dialog="privacy-dialog">Политика обработки персональных данных</button><button type="button" data-dialog="consent-dialog">Согласие на обработку персональных данных</button></div></footer>
+    <footer class="site-footer"><span class="footer-year">© 2026</span><div class="footer-links"><button type="button" data-dialog="privacy-dialog">Политика обработки персональных данных</button><button type="button" data-dialog="consent-dialog">Согласие на обработку персональных данных</button></div></footer>
   </main>
-  <div class="section-marker" aria-hidden="true"><span id="chapter-number">01</span><div class="marker-line"></div><span>04</span></div>
   <dialog id="privacy-dialog" aria-labelledby="privacy-title"><div class="dialog-head"><h2 id="privacy-title">Политика обработки<br>персональных данных</h2><button class="close-dialog" type="button" data-close aria-label="Закрыть"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button></div><div class="dialog-body">
     <p class="dialog-note">Предварительная версия. Приём заявок на этом сайте ещё не включён.</p>
     <h3>Сейчас</h3><p>Анкета работает только в вашем браузере. Её содержимое не отправляется на сервер, в мессенджеры, CRM или сервисы искусственного интеллекта. Сайт не записывает данные анкеты в cookies, localStorage или sessionStorage. После перезагрузки страницы введённые данные не восстанавливаются сайтом.</p>
@@ -286,7 +264,7 @@
   </div></dialog>
   <dialog id="review-dialog" aria-labelledby="review-title"><div class="dialog-head"><h2 id="review-title">Ваша анкета</h2><button class="close-dialog" type="button" data-close aria-label="Закрыть"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button></div><div class="dialog-body"><p class="dialog-note">Анкета проверена. Это предпросмотр — заявка не отправлена.</p><dl class="review-list" id="review-list"></dl><button class="button" type="button" data-close>Вернуться к анкете<svg class="icon" aria-hidden="true"><use href="#back"/></svg></button></div></dialog>
   <script type="application/json" id="site-config">{"videoDesktop":"","videoMobile":"","preview":true}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Создание сайта всё включено","serviceType":"Создание и ведение сайтов для малого и среднего бизнеса","provider":{"@type":"Organization","name":"АРС-42"},"offers":{"@type":"Offer","price":"10000","priceCurrency":"RUB"},"description":"Аудит, анализ ниши и конкурентов, дизайн, варианты бонусов и спецпредложений, внедрение Яндекс Метрики и Вебмастера, рекомендации по Яндекс Директ, админка для самостоятельного редактирования и защита."}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Создание сайта всё включено","serviceType":"Создание и ведение сайтов для малого и среднего бизнеса","offers":{"@type":"Offer","price":"10000","priceCurrency":"RUB"},"description":"Аудит, анализ ниши и конкурентов, дизайн, варианты бонусов и спецпредложений, внедрение Яндекс Метрики и Вебмастера, рекомендации по Яндекс Директ, админка для самостоятельного редактирования и защита."}</script>
   <script>
   (() => {
     'use strict';
@@ -294,10 +272,7 @@
     const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
     const root = document.documentElement;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const header = $('#header');
     const sections = $$('section[data-chapter]');
-    const menu = $('#main-nav');
-    const menuToggle = $('#menu-toggle');
     let ticking = false;
     let videoReady = false;
     let targetVideoTime = 0;
@@ -305,14 +280,6 @@
     const video = $('#scroll-video');
     let config = {};
     try { config = JSON.parse($('#site-config').textContent); } catch { /* Safe static fallback. */ }
-
-    function closeMenu() { menu.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); menuToggle.setAttribute('aria-label','Открыть меню'); }
-    menuToggle.addEventListener('click', () => {
-      const open = menuToggle.getAttribute('aria-expanded') !== 'true';
-      menu.classList.toggle('open',open); menuToggle.setAttribute('aria-expanded',String(open)); menuToggle.setAttribute('aria-label',open?'Закрыть меню':'Открыть меню');
-    });
-    $$('a[href^="#"]').forEach(link => link.addEventListener('click',closeMenu));
-    document.addEventListener('keydown', event => { if(event.key==='Escape') closeMenu(); });
 
     function seekVideo() {
       videoFramePending=false;
@@ -327,14 +294,8 @@
       const max=Math.max(1,document.documentElement.scrollHeight-innerHeight);
       const progress=Math.min(1,Math.max(0,scrollY/max));
       root.style.setProperty('--scroll',String(progress));
-      header.classList.toggle('scrolled',scrollY>15);
-      let chapter=0;
-      const positions=sections.map(section=>section.getBoundingClientRect().top+scrollY);
-      sections.forEach((section,index)=>{ if(section.getBoundingClientRect().top < innerHeight*.4) chapter=index; });
-      root.style.setProperty('--scene',String(chapter));
-      $('#chapter-number').textContent=String(chapter+1).padStart(2,'0');
-      $$('a',menu).forEach((link,index)=>{ if(index===chapter) link.setAttribute('aria-current','location'); else link.removeAttribute('aria-current'); });
       if(videoReady && !reduced.matches) {
+        const positions=sections.map(section=>section.getBoundingClientRect().top+scrollY);
         // Each of the four HTML chapters maps to one quarter of the video.
         const anchors=[...positions.slice(0,4).map((p,i)=>i===0?0:Math.max(0,p-innerHeight*.15)),max];
         let segment=0; while(segment<3 && scrollY>=anchors[segment+1]) segment++;
@@ -345,7 +306,7 @@
     }
     function scheduleScroll() { if(!ticking) { ticking=true; requestAnimationFrame(scrollUpdate); } }
     addEventListener('scroll',scheduleScroll,{passive:true});
-    addEventListener('resize',() => { if(innerWidth>680) closeMenu(); scheduleScroll(); },{passive:true});
+    addEventListener('resize',scheduleScroll,{passive:true});
     if('IntersectionObserver' in window && !reduced.matches) {
       root.classList.add('js-motion');
       const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{ if(entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } }),{threshold:.08});
@@ -444,7 +405,7 @@
     function openDialog(dialog) {
       if(!dialog) return;
       lastFocus=document.activeElement;
-      closeMenu(); dialog.showModal(); document.body.classList.add('modal-open');
+      dialog.showModal(); document.body.classList.add('modal-open');
     }
     $$('[data-dialog]').forEach(button=>button.addEventListener('click',()=>openDialog(document.getElementById(button.dataset.dialog))));
     $$('dialog').forEach(dialog=>{
