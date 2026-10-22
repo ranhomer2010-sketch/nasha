@@ -1,0 +1,8 @@
+/tools/app-check.js
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+*.log
+node_modules/
